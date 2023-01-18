@@ -57,3 +57,6 @@ const productSchema = new mongoose.Schema({
 },{timestamps: true})
 
 module.exports = mongoose.model("Product", productSchema)
+
+
+// https://ecommerce-api-production.up.railway.app/api/products
